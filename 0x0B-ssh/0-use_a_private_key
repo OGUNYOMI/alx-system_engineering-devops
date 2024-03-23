@@ -2,12 +2,4 @@
 
 # Script to connect to a server using SSH with a private key
 
-# Usage: ./0-use_a_private_key
-
-# Using ssh with the private key ~/.ssh/school to connect to the server with the user ubuntu
-
-# -i flag is used to specify the identity (private key) file
-# -l flag is avoided as per requirements
-# ubuntu@server01 is the user and host we are connecting to
-
 ssh -i ~/.ssh/school ubuntu@server01
