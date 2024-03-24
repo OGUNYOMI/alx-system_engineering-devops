@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# SSH client configuration's
+# Default settings
+
+Host *
+    PasswordAuthentication no
+
+# Configuration for the specific server
+Host 523903-web-01
+    HostName <3.85.177.199>
+    IdentityFile ~/.ssh/school
