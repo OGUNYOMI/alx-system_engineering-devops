@@ -41,7 +41,7 @@ frontend allsmiles-frontend
         default_backend allsmiles-backend
 
 frontend allsmiles-frontend-https
-        bind *:443 ssl crt /etc/haproxy/certs/allsmiles.tech.pem
+        bind *:443 ssl crt /etc/haproxy/certs/www.allsmiles.tech.pem
         http-request set-header X-Forwarded-Proto https
         default_backend allsmiles-backend
 
